@@ -1,0 +1,28 @@
+ /* #myForm input{
+    display: block;
+    width: 15%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+#myForm button{
+    background-color: green;
+    width: 100px;
+    height: 35px;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+.post{
+    transition: .5s;
+    margin-bottom:10px;
+    border: 2px solid;
+    border-color: transparent transparent black transparent;
+    text-align: center;
+    
+
+}
+.post:hover{
+    background-color:aquamarine;
+    transform: translate3d(1px,1px,1px);
+    box-shadow: 1px 1px 10px 1px ;
+}
